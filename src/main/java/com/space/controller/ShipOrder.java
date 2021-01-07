@@ -6,7 +6,7 @@ public enum ShipOrder {
     DATE("prodDate"),
     RATING("rating");
 
-    private String fieldName;
+    final private String fieldName;
 
     ShipOrder(String fieldName) {
         this.fieldName = fieldName;
